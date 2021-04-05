@@ -1,0 +1,101 @@
+* {
+	padding:0;
+	margin:0;
+	font-family: 'Quicksand', sans-serif;
+	color: #333;
+}
+header {
+	height:70px;
+  background-color: coral;
+}
+header h1 {
+	display: inline-block;
+	float: left;
+	padding:15px 24px;
+	text-transform: uppercase;
+}
+header h1 a {
+	transition: .3s;
+}
+header h1 a:hover {
+	color: #F84744;
+}
+header ul {
+	float: right;
+}
+header ul li {
+	padding:24px;
+	display: inline-block;
+}
+header ul li a {
+	transition: .3s;
+}
+header ul li a:hover {
+	color: #F84744;
+}
+a {
+	text-decoration: none;
+}
+.container {
+	width:90%;
+	margin:0 auto;
+}
+.bg{
+  background-color: sandybrown;
+  width: 100%;
+  height:40vh;
+}
+#content{
+  float: left;
+}
+#aside{
+  float:right;
+  padding-left:20px;
+}
+.wrapping{
+  padding:25px;
+}
+#content{
+  width: 55%;
+  padding:5px;
+}
+#aside{
+  width:40%;
+  padding: 5px;
+}
+.article{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  line-height: 30px;
+}
+.text-bold{
+  
+  font-size: 18px;
+}
+.jorok{
+  padding-left: 30px;
+}
+main{
+  height: 100vh;
+}
+.wrap{
+  padding: 30px;
+  margin-left: 60px;
+}
+
+img{
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+
+#footer{
+  width: 100%;
+  background-color:peru ;
+  height: 60px;
+}
+
+.jarak{
+  margin: 12px;
+}
